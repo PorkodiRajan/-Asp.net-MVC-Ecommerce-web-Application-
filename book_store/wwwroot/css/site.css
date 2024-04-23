@@ -1,0 +1,157 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+ // box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}*/
+
+html {
+  position: relative;
+  min-height: 100%;  
+  font-size:19px;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif !important;
+}
+.image{
+    width:100%;
+    height: 350px;
+}
+.container-fluid {
+    background-color: black;
+    height: 80px;
+}
+.navbar {
+    background-color: black;
+    height: 80px;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+footer {
+   
+    background-color: black;
+    height: 80px;
+}
+/*.button {
+    margin-bottom: 90px;
+    align-items:center;
+}*/
+
+h2 {
+    font-family: Arial, sans-serif !important;
+    letter-spacing: 0.5px !important;
+}
+
+.card {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: #999999;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    font-family: Arial, sans-serif !important;
+}
+
+h1 {
+    margin-top: 30px !important;
+}
+
+.card-body {
+    text-align: center;    
+}
+
+.card-body h5 {    
+    margin-bottom: 0px;
+}
+
+.card-body h6 {    
+    margin-bottom: 0px;
+    font-size: 110%;
+}
+
+.card-body p {
+    font-size: 85%;
+    color: #adadad;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    border-radius: 12px;
+    border-color: #c7c7c7;
+}
+
+form label {
+    color: #949494;
+}
+
+.image_cart{
+    height: 94px;
+}
+
+
+.explore-btn {
+    justify-content: center;
+}
+
+.explore-btn, .explore-more-btn, .details-button {
+    background-color: black;    
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.explore-btn:hover, explore-more-btn:hover, .details-button:hover {
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.5);
+}
+
+.explore-more-btn {
+    margin-bottom: 90px;    
+}
+
+img{
+    height: 400px;
+    width: 100%;
+}
+
+
+.carousel-indicators {
+    bottom: 10px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px; /* Dot size */
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Dot color */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 5px; /* Spacing between dots */
+}
+
+.carousel-indicators .active {
+    background-color: #fff; /* Active dot color */
+}
+
+.carousel-img {
+   
+    object-fit: fill;
+}
+
+
